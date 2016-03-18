@@ -7,3 +7,5 @@ $html.on('keydown', function () {
 
 $newball.addClass('ball');
 $body.append(newBall);
+$newBall.css('top', Math.random());
+$newBall.css('left', Math.random());
