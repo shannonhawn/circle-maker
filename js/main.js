@@ -2,7 +2,7 @@ var $body = $('body');
 var $html = $('html');
 
 $html.on('keydown', function () {
-  var newBall = $ball.css;
+  var newBall = $('<div>');
 });
 
 $newball.addClass('ball');
